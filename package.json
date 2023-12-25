@@ -1,0 +1,24 @@
+{
+  "name": "rest-api-test-svelte",
+  "version": "1.0.0",
+  "description": "restful api for test svelte project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app.js"
+  },
+  "keywords": [
+    "restapi",
+    "nodejs-svelte"
+  ],
+  "author": "endabelyu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5",
+    "uuid": "^9.0.1"
+  }
+}
